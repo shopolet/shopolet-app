@@ -1,5 +1,5 @@
 As the Shopolet team said
-> This directory, it's contents and the following instructions are only for developers who need to edit the codebase. For installing the pre-built application follow the guidelines in [shopolet.github.iio](https://shopolet.github.io)
+> This directory, it's contents and the following instructions are only for developers who need to edit the codebase. For installing the pre-built application follow the guidelines in [shopolet.github.io](https://shopolet.github.io)
 
 ## NPM Global Dependencies  
 With Node and NPM installed, the following global dependencies must be installed before executing build scripts.
