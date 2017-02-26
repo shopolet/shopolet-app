@@ -29,3 +29,9 @@ npm install -g typescript@2.2.1
 npm install -g ts-node@2.1.0
 ```
 
+## Pre Requisites
+Install the type definitions for core-js and node to be used in gulpfile.ts
+```
+typings install dt~core-js --global --save
+typings install dt~node --global --save
+```
