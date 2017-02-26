@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "typeRoots": ["./typings.json"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
