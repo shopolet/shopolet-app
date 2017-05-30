@@ -1,0 +1,63 @@
+{
+  "cookie": {
+    "parserSecret": "password",
+    "options" : {
+      "domain": "localhost",
+      "encode": false,
+      "httpOnly": true,
+      "maxAge": null,
+      "sameSite": true,
+      "secure": true
+    },
+    "sessionCookieOptions" : {
+      "name": "session",
+      "domain": "localhost",
+      "encode": false,
+      "httpOnly": true,
+      "maxAge": null,
+      "sameSite": true,
+      "secret": "password",
+      "secure": true,
+      "signed": true,
+      "overwrite": true
+    }
+  },
+  "database": {
+    "type": "mongodb",
+    "url": "mongodb://shopoletdataeditor:abc123@localhost:27017/shopolet",
+    "options": {
+      "poolSize": 3
+    }
+  },
+  "nodejs": {
+    "server": {
+      "mode": "http",
+      "port": 8081,
+      "httpsOptions": {
+        "key": null,
+        "cert": null,
+        "pfx": null
+      }
+    }
+  },
+  "paths": {
+    "settings": "/Users/malaybiswas/Projects/settings/shopolet",
+    "themes": "/Users/malaybiswas/Projects/settings/shopolet/themes"
+  },
+  "winston": {
+    "exitOnError": false,
+    "transports": [
+      {
+        "name": "console-log",
+        "type": "console",
+        "level": "debug"
+      },
+      {
+        "name": "file-log",
+        "type": "file",
+        "filename": "/Users/malaybiswas/Projects/Workspaces/WebStorm/shopolet/shopolet-app/run/logs/shopolet-app.log",
+        "level": "debug"
+      }
+    ]
+  }
+}
